@@ -1,0 +1,37 @@
+{
+  "name": "mosyle-api-notifications",
+  "version": "1.0.0",
+  "description": "Query Mosyle MDM and send notifications based on results",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "start": "./mosyle-api-notifications.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apfelq/mosyle-api-notifications.git"
+  },
+  "keywords": [
+    "mdm",
+    "macos",
+    "mosyle"
+  ],
+  "author": "Alexander Harm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apfelq/mosyle-api-notifications/issues"
+  },
+  "homepage": "https://github.com/apfelq/mosyle-api-notifications#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "got": "^12.0.4",
+    "graceful-fs": "^4.2.10",
+    "js-yaml": "^4.1.0",
+    "nodemailer": "^6.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,0 +1,16 @@
+mail:
+  server: "smtp.example.com"
+  port: 587
+  from: "sender@example.com"
+  to: "recipient@example.com"
+  username: "sender@example.com"
+  password: "supersecretpassword"
+mosyle:
+  url: "https://businessapi.mosyle.com/v1/"
+  tenants:
+    example:
+      username: "john.doe@example.com"
+      password: "supersecretpassword"
+      accesstoken: "supersecretapikey"
+      notifications:
+        diskFreePercentage: 5
